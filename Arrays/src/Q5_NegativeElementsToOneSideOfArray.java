@@ -6,6 +6,7 @@ public class Q5_NegativeElementsToOneSideOfArray {
         sort(arr);
     }
 
+    
     static void sort(int arr[]){
         Arrays.sort(arr);
         for (int i = 0; i < arr.length; i++) {
